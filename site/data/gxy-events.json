@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11T15:29:27Z",
+ "updated": "2026-11-11T19:37:05Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-12T14:30:00.000+0000",
+ "feed_reaches": "2026-11-12T21:10:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "events": [
@@ -206,6 +206,173 @@
     "jerseyunlock"
    ],
    "url": "https://www.zwift.com/events/view/5782581"
+  },
+  {
+   "id": 5782632,
+   "name": "GXY  HIGH STRATOSPHERE",
+   "start": "2026-11-12T15:00:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 1453570384,
+   "map_id": 9,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 2.3,
+     "wkg_to": 2.7,
+     "range": null,
+     "route_id": 1453570384,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the STRATOSPHERE / HIGH STRATOSPHERE group of events Tuesday & Thursday at the same time.",
+   "description": "Part of the STRATOSPHERE / HIGH STRATOSPHERE group of events Tuesday & Thursday at the same time.\n\nAn event that starts as a steady state ride but builds towards the end with an optional power pyramid or intervals.\n\nEVENT DYNAMICS\n\nPower - 2.3 > 2.7 wkg but expect the event to finish with an average power around 2.5wkg based on a 75kg rider\nFence\t- Enabled to KICK when in use, used at the leader's discretion\t\nDraft\t- Enabled – focus required to stay within the group\nSweeper\t- No\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/club-images/EVENT/0d4a038a-c8b8-4446-b699-e230bfab6639",
+   "template_id": null,
+   "tags": [
+    "galaxy",
+    "galaxycc",
+    "gxy",
+    "jerseyunlock",
+    "fenced",
+    "showplacements"
+   ],
+   "url": "https://www.zwift.com/events/view/5782632"
+  },
+  {
+   "id": 5782668,
+   "name": "GXY HIGH LOOSEY GOOSEY",
+   "start": "2026-11-12T16:45:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 54700404,
+   "map_id": 2,
+   "laps": 1,
+   "distance_m": 0.0,
+   "duration_s": 0,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.0,
+     "wkg_to": 2.5,
+     "range": null,
+     "route_id": 54700404,
+     "laps": 1,
+     "distance_m": 0.0,
+     "duration_s": 0,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the GOOSEY trilogy of events Tue / Wed / Thu at the same time",
+   "description": "Part of the GOOSEY trilogy of events Tue / Wed / Thu at the same time \n\nThis is the higher powered GOOSEY event, faster than those at Tue and Wed.\nExpect a fun, social, steady state ride / event where sprints and Kom segments may be included and staying in the draft is essential.\n\nEVENT DYNAMICS\n\nCategory\t- D\nPower \t- 1.9 > 2.3wkg but expect the event to finish around 2.1wkg based on a 75kg rider.\nFence \t- Will be set to KICK! used at the leader's discretion\nDraft\t- Enabled – focus required to stay within the group\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/club-images/EVENT/d1fadcea-d5b6-451f-b1e8-2afb4770435a",
+   "template_id": null,
+   "tags": [
+    "created_leah",
+    "galaxycc",
+    "gxy",
+    "fenced",
+    "galaxy",
+    "autosteering_v5"
+   ],
+   "url": "https://www.zwift.com/events/view/5782668"
+  },
+  {
+   "id": 5782717,
+   "name": "GXY RIDE THE RAINBOW",
+   "start": "2026-11-12T17:45:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 162354031,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "E",
+     "wkg_from": 1.0,
+     "wkg_to": 5.0,
+     "range": null,
+     "route_id": 162354031,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the RIDE THE RAINBOW group of workout events Tuesday and Thursday at the same time",
+   "description": "Part of the RIDE THE RAINBOW group of workout events Tuesday and Thursday at the same time\n\nThis event is a workout ride based on your individual Functional Threshold Power (FTP).  This is not a group ride and has no draft effect.  The coloured power zones will be called out by the ride leader during the event.  Expect them to fluctuate throughout the rainbow colours.\n\nOnce you understand the concept of how this event works, you will find that it is fun, engaging and a tough workout all-in-one\n\nEVENT DYNAMICS\n\nCategory\t- E\nPower \t- 1.0 > 5.0wkg wholly dependent on your own FTP rating\nDraft\t- No\nSweeper \t- No\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/club-images/EVENT/d1fadcea-d5b6-451f-b1e8-2afb4770435a",
+   "template_id": null,
+   "tags": [
+    "created_leah",
+    "gxy",
+    "galaxy",
+    "fenced",
+    "f500community",
+    "jerseyunlock"
+   ],
+   "url": "https://www.zwift.com/events/view/5782717"
+  },
+  {
+   "id": 5782782,
+   "name": "GXY   BLAST OFF – BANDED",
+   "start": "2026-11-12T19:00:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3366225080,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.2,
+     "wkg_to": 1.6,
+     "range": null,
+     "route_id": 3366225080,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": true,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of our GXY Banded Events, BLAST OFF! rides on Mondays and Thursdays at the same time.",
+   "description": "Part of our GXY Banded Events, BLAST OFF! rides on Mondays and Thursdays at the same time.\n\nThese events will be course or time based with a 5 minute after party or cool down after the regular event ends\n\nEVENT DYNAMICS\n\nCategory\t- E\nPower \t- 1.0 > 5.0wkg you decide, just keep pedalling!\nFence \t- No \nDraft\t- Banded draft, designed to keep the group together whatever power is generated by a rider\nSweeper \t- No \n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/club-images/EVENT/d1fadcea-d5b6-451f-b1e8-2afb4770435a",
+   "template_id": null,
+   "tags": [
+    "jerseyunlock",
+    "gxy",
+    "galaxy",
+    "galaxycc",
+    "fenced"
+   ],
+   "url": "https://www.zwift.com/events/view/5782782"
   }
  ]
 }
