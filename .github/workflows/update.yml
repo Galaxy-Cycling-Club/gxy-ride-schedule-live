@@ -1,0 +1,51 @@
+name: Update GXY ride schedule
+
+on:
+  schedule:
+    - cron: "17 */3 * * *"   # every 3 hours, at 17 past (UTC)
+  workflow_dispatch:          # "Run workflow" button for a manual update
+  push:
+    branches: [main]
+    paths: ["site/**"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: gxy-schedule
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch Galaxy events from Zwift's public feed
+        if: github.event_name != 'push'
+        run: python results/scripts/01_fetch_zwift_events.py
+
+      - name: Commit updated data
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "gxy-schedule-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/processed/gxy-*.json site/data/*.json
+          git diff --cached --quiet || git commit -m "Update ride data $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
