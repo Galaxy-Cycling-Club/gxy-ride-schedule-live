@@ -1,0 +1,17 @@
+﻿# Whitelist: only the public dashboard, its scripts and its data go to GitHub.
+# admin/, notes, raw data and project control files stay private (OneDrive only).
+/*
+!/.gitignore
+!/.github/
+!/site/
+!/results/
+/results/*
+!/results/scripts/
+!/data/
+/data/*
+!/data/processed/
+/data/processed/*
+!/data/processed/gxy-*.json
+!/PUBLIC-README.md
+__pycache__/
+*.tmp

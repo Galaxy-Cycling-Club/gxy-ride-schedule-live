@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GXY Ride Schedule</title>
+<meta name="description" content="Galaxy Cycling Club's Zwift rides, live from Zwift, in your own time zone.">
+<link rel="icon" href="assets/GXY26_Logo-Profile_Purple.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    color-scheme: light;
+    --bg:#faf8fc; --surface:#ffffff; --surface-2:#f1ecf9; --border:#e3dcef;
+    --text-primary:#180b2e; --text-secondary:#6a6079; --text-muted:#948aa3;
+    --accent:#7014f2; --accent-deep:#4c0ecf; --accent-soft:#f0e6fe; --accent-ink:#ffffff;
+    --hero:#1b0444; --hero-ink:#ffffff; --hero-muted:#c9bde6;
+    --gold:#a8791a; --gold-bg:#fbf0d9; --live:#0d8a4f; --live-bg:#dcf5e8;
+    --pen-a:#d6336c; --pen-b:#2f9e44; --pen-c:#1c7ed6; --pen-d:#e8a800; --pen-e:#7014f2;
+    --shadow:0 1px 2px rgba(24,11,46,.06),0 4px 16px rgba(24,11,46,.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --bg:#140a26; --surface:#1e1136; --surface-2:#271642; --border:#3a2459;
+      --text-primary:#f5f1fc; --text-secondary:#b6a9ce; --text-muted:#8577a0;
+      --accent:#a879fb; --accent-deep:#c9aeff; --accent-soft:#33205a; --accent-ink:#1a0d33;
+      --hero:#0d0220; --hero-ink:#ffffff; --hero-muted:#b6a9ce;
+      --gold:#e3c069; --gold-bg:#3a2e14; --live:#5fd39a; --live-bg:#123326;
+      --pen-a:#f06595; --pen-b:#69db7c; --pen-c:#4dabf7; --pen-d:#ffd43b; --pen-e:#b197fc;
+      --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 20px rgba(0,0,0,.35);
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --bg:#140a26; --surface:#1e1136; --surface-2:#271642; --border:#3a2459;
+    --text-primary:#f5f1fc; --text-secondary:#b6a9ce; --text-muted:#8577a0;
+    --accent:#a879fb; --accent-deep:#c9aeff; --accent-soft:#33205a; --accent-ink:#1a0d33;
+    --hero:#0d0220; --hero-ink:#ffffff; --hero-muted:#b6a9ce;
+    --gold:#e3c069; --gold-bg:#3a2e14; --live:#5fd39a; --live-bg:#123326;
+    --pen-a:#f06595; --pen-b:#69db7c; --pen-c:#4dabf7; --pen-d:#ffd43b; --pen-e:#b197fc;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 4px 20px rgba(0,0,0,.35);
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text-primary);
+    font-family:'IBM Plex Sans',system-ui,sans-serif; font-size:15px; line-height:1.45; }
+  a { color:var(--accent); }
+  .wrap { max-width:1100px; margin:0 auto; padding:0 16px; }
+
+  header.hero { background:var(--hero); color:var(--hero-ink); padding:22px 0 20px; }
+  .hero .wrap { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+  .hero img { height:46px; width:auto; }
+  .hero h1 { font-family:'Oswald',sans-serif; font-weight:600; letter-spacing:.5px;
+    font-size:26px; margin:0; text-transform:uppercase; }
+  .hero p { margin:2px 0 0; color:var(--hero-muted); font-size:14px; }
+  .hero .tz { margin-left:auto; display:flex; flex-direction:column; gap:4px; font-size:12px; color:var(--hero-muted); }
+  .hero select { font:inherit; font-size:14px; padding:7px 10px; border-radius:8px;
+    border:1px solid #4a2c8a; background:#2a0d63; color:#fff; max-width:260px; }
+
+  section { margin:22px 0; }
+  h2 { font-family:'Oswald',sans-serif; font-weight:600; font-size:20px; letter-spacing:.4px;
+    text-transform:uppercase; margin:0 0 10px; display:flex; align-items:center; gap:10px; }
+  .pill { font-family:'IBM Plex Sans',sans-serif; font-size:12px; font-weight:500; text-transform:none;
+    letter-spacing:0; padding:2px 9px; border-radius:999px; background:var(--surface-2); color:var(--text-secondary); }
+  .pill.live { background:var(--live-bg); color:var(--live); }
+  .note { background:var(--accent-soft); border:1px solid var(--border); border-radius:10px;
+    padding:10px 14px; font-size:14px; color:var(--text-secondary); }
+  .note b { color:var(--text-primary); }
+
+  .filters { background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    padding:14px; box-shadow:var(--shadow); display:grid; gap:12px; }
+  .frow { display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .frow .lab { font-size:12px; text-transform:uppercase; letter-spacing:.6px; color:var(--text-muted); width:74px; flex-shrink:0; }
+  .chip { font:inherit; font-size:13px; padding:5px 11px; border-radius:999px; cursor:pointer;
+    border:1px solid var(--border); background:var(--surface); color:var(--text-primary); }
+  .chip[aria-pressed="true"] { background:var(--accent); border-color:var(--accent); color:var(--accent-ink); }
+  .chip:focus-visible, select:focus-visible, input:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+  input[type=search] { font:inherit; font-size:14px; padding:7px 11px; border-radius:8px; flex:1; min-width:180px;
+    border:1px solid var(--border); background:var(--bg); color:var(--text-primary); }
+
+  .day { margin:18px 0 6px; font-family:'Oswald',sans-serif; font-size:17px; font-weight:500;
+    text-transform:uppercase; letter-spacing:.5px; color:var(--text-secondary);
+    border-bottom:2px solid var(--accent); padding-bottom:4px; display:flex; gap:10px; align-items:baseline; }
+  .day small { font-family:'IBM Plex Sans',sans-serif; text-transform:none; letter-spacing:0; font-size:13px; color:var(--text-muted); }
+  .list { display:grid; gap:8px; }
+  .ride { background:var(--surface); border:1px solid var(--border); border-radius:10px;
+    padding:10px 14px; display:grid; grid-template-columns:72px 1fr; gap:4px 14px; box-shadow:var(--shadow); }
+  .ride .t { font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:500; color:var(--accent); }
+  .ride .t small { display:block; font-size:11px; color:var(--text-muted); font-family:'IBM Plex Sans',sans-serif; }
+  .ride .n { font-weight:600; font-size:15px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; }
+  .ride .meta { font-size:13px; color:var(--text-secondary); display:flex; flex-wrap:wrap; gap:4px 12px; }
+  .ride .sum { grid-column:2; font-size:13.5px; color:var(--text-secondary); }
+  .ride details { grid-column:2; font-size:13px; }
+  .ride details summary { cursor:pointer; color:var(--accent); }
+  .ride details div { white-space:pre-line; color:var(--text-secondary); padding:6px 0; }
+  .pen { display:inline-flex; align-items:center; gap:4px; font-size:12px; font-weight:500;
+    border:1px solid var(--border); border-radius:6px; padding:1px 7px; background:var(--surface-2); }
+  .pen i { width:9px; height:9px; border-radius:50%; display:inline-block; }
+  .badge { font-size:11.5px; font-weight:600; padding:1px 8px; border-radius:999px; }
+  .badge.jersey { background:var(--gold-bg); color:var(--gold); }
+  .badge.band { background:var(--accent-soft); color:var(--accent); }
+  .badge.type { background:var(--surface-2); color:var(--text-secondary); font-weight:500; }
+  .badge.new { background:var(--live-bg); color:var(--live); }
+  .empty { color:var(--text-muted); font-size:14px; padding:10px 0; }
+  footer { color:var(--text-muted); font-size:12.5px; padding:20px 0 40px; border-top:1px solid var(--border); margin-top:30px; }
+  @media (max-width:560px) {
+    .hero .tz { margin-left:0; width:100%; } .hero select { max-width:none; width:100%; }
+    .ride { grid-template-columns:58px 1fr; } .ride .t { font-size:16px; }
+    .frow .lab { width:100%; }
+  }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <img src="assets/GXY26_Logo_GXY_Full_White.png" alt="Galaxy Cycling Club">
+    <div>
+      <h1>Ride schedule</h1>
+      <p>Every Galaxy ride on Zwift, live from Zwift, in your time zone</p>
+    </div>
+    <label class="tz">Show times for
+      <select id="tz" aria-label="Time zone"></select>
+    </label>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Next 24 hours <span class="pill" id="liveStatus">loading…</span></h2>
+    <div class="list" id="next"></div>
+  </section>
+
+  <section>
+    <h2>Weekly schedule <span class="pill" id="weekCount"></span></h2>
+    <div class="note" id="buildNote" hidden></div>
+    <div class="filters" style="margin-top:12px">
+      <div class="frow"><span class="lab">Day</span><div class="frow" id="fDay"></div></div>
+      <div class="frow"><span class="lab">Category</span><div class="frow" id="fCat"></div></div>
+      <div class="frow"><span class="lab">Show only</span><div class="frow" id="fFlag"></div></div>
+      <div class="frow"><span class="lab">Search</span><input type="search" id="q" placeholder="Ride name or description, e.g. sprint, endurance, FTP"></div>
+    </div>
+    <div id="week"></div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Data: Zwift's public events feed, Galaxy Cycling Club events only. The weekly schedule is built up from that feed every 3 hours: rides appear when Zwift lists them and drop off after 8 days unseen. Always check the event in Zwift Companion before riding.</p>
+  <p id="updated"></p>
+</footer>
+
+<script>
+(() => {
+  const CLUB = '0d04ac16-6fad-4905-8407-98969e30595d';
+  const FEED = 'https://us-or-rly101.zwift.com/api/public/events/upcoming?limit=200&start=';
+  const DAYS = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+  const CATS = ['A','B','C','D','E'];
+  const ZONES = [
+    ['Europe/London','UK (London)'], ['Europe/Dublin','Ireland (Dublin)'], ['Europe/Amsterdam','Central Europe (Amsterdam, Paris, Berlin)'],
+    ['Europe/Helsinki','Eastern Europe (Helsinki, Athens)'], ['Africa/Johannesburg','South Africa (Johannesburg)'],
+    ['Asia/Dubai','Gulf (Dubai)'], ['Asia/Kolkata','India'], ['Asia/Singapore','Singapore'],
+    ['Australia/Perth','Australia (Perth)'], ['Australia/Brisbane','Australia (Brisbane)'], ['Australia/Sydney','Australia (Sydney, Melbourne)'],
+    ['Pacific/Auckland','New Zealand (Auckland)'], ['America/St_Johns','Canada (Newfoundland)'], ['America/Halifax','Canada (Halifax)'],
+    ['America/Toronto','US/Canada Eastern (New York, Toronto)'], ['America/Chicago','US/Canada Central (Chicago, Winnipeg)'],
+    ['America/Edmonton','US/Canada Mountain (Calgary, Denver)'], ['America/Phoenix','Arizona'],
+    ['America/Vancouver','US/Canada Pacific (Vancouver, LA)'], ['America/Sao_Paulo','Brazil (São Paulo)'],
+  ];
+  const $ = id => document.getElementById(id);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const store = { get(k){ try { return localStorage.getItem(k); } catch { return null; } }, set(k,v){ try { localStorage.setItem(k,v); } catch {} } };
+
+  // ---- time zone picker
+  const own = Intl.DateTimeFormat().resolvedOptions().timeZone || 'Europe/London';
+  const tzSel = $('tz');
+  const opts = ZONES.some(z => z[0] === own) ? ZONES : [[own, `My time zone (${own.replace(/_/g,' ')})`], ...ZONES];
+  tzSel.innerHTML = opts.map(([v,l]) => `<option value="${esc(v)}">${esc(l)}${v === own ? ' · mine' : ''}</option>`).join('');
+  tzSel.value = store.get('gxy-tz') || own;
+  if (!tzSel.value) tzSel.value = own;
+
+  const tz = () => tzSel.value;
+  const fmtTime = d => new Intl.DateTimeFormat('en-GB', { hour:'2-digit', minute:'2-digit', hour12:false, timeZone:tz() }).format(d);
+  const fmtWeekday = d => new Intl.DateTimeFormat('en-GB', { weekday:'long', timeZone:tz() }).format(d);
+  const fmtDay = d => new Intl.DateTimeFormat('en-GB', { weekday:'long', day:'numeric', month:'long', timeZone:tz() }).format(d);
+  const fmtStamp = d => new Intl.DateTimeFormat('en-GB', { weekday:'short', day:'numeric', month:'short', hour:'2-digit', minute:'2-digit', timeZone:tz(), timeZoneName:'short' }).format(d);
+  const ukTime = d => new Intl.DateTimeFormat('en-GB', { hour:'2-digit', minute:'2-digit', hour12:false, timeZone:'Europe/London' }).format(d);
+
+  // ---- state & filters
+  const state = { day:'All', cats:new Set(), jersey:false, banded:false, q:'' };
+  let slots = [], meta = {};
+
+  function chips(el, items, isOn, onClick) {
+    el.innerHTML = items.map(i => `<button class="chip" data-v="${esc(i.v)}" aria-pressed="${isOn(i.v)}">${esc(i.l)}</button>`).join('');
+    el.onclick = e => { const b = e.target.closest('button'); if (b) { onClick(b.dataset.v); renderAll(); } };
+  }
+  function renderFilters() {
+    chips($('fDay'), [{v:'All',l:'All week'}, {v:'Today',l:'Today'}, ...DAYS.map(d => ({v:d,l:d.slice(0,3)}))],
+      v => state.day === v, v => state.day = v);
+    chips($('fCat'), CATS.map(c => ({v:c, l:`Cat ${c}`})), v => state.cats.has(v),
+      v => state.cats.has(v) ? state.cats.delete(v) : state.cats.add(v));
+    chips($('fFlag'), [{v:'jersey',l:'Unlocks a jersey'}, {v:'banded',l:'Banded'}],
+      v => state[v], v => state[v] = !state[v]);
+  }
+  $('q').addEventListener('input', e => { state.q = e.target.value.trim().toLowerCase(); renderWeek(); });
+  tzSel.addEventListener('change', () => { store.set('gxy-tz', tzSel.value); renderAll(); });
+
+  function matches(r) {
+    if (state.jersey && !r.jersey_unlock) return false;
+    if (state.banded && !r.banded) return false;
+    if (state.cats.size && !(r.pens || []).some(p => state.cats.has(p.label))) return false;
+    if (state.q) {
+      const hay = `${r.name} ${r.description || r.summary || ''} ${(r.tags||[]).join(' ')}`.toLowerCase();
+      if (!state.q.split(/\s+/).every(w => hay.includes(w))) return false;
+    }
+    return true;
+  }
+
+  // ---- ride card
+  function lengthText(r) {
+    const src = [r, ...(r.pens || [])];
+    const km = src.map(x => x.distance_m).find(v => v > 0);
+    const s = src.map(x => x.duration_s).find(v => v > 0);
+    const laps = src.map(x => x.laps).find(v => v > 0);
+    if (km) return `${(km/1000).toFixed(km >= 10000 ? 0 : 1)} km`;
+    if (s) return `${Math.round(s/60)} min`;
+    if (laps) return `${laps} lap${laps > 1 ? 's' : ''}`;
+    return '';
+  }
+  const typeLabel = t => ({GROUP_RIDE:'Group ride', RACE:'Race', GROUP_WORKOUT:'Workout', TIME_TRIAL:'Time trial', TEAM_TIME_TRIAL:'TTT', FONDO:'Fondo'}[t] || (t ? t.toLowerCase().replace(/_/g,' ') : ''));
+  function pens(r) {
+    return (r.pens || []).map(p => {
+      const c = `var(--pen-${(p.label||'e').toLowerCase()})`;
+      const w = (p.wkg_from != null && p.wkg_to != null) ? ` ${p.wkg_from}–${p.wkg_to} w/kg` : '';
+      return `<span class="pen" title="Category ${esc(p.label)}"><i style="background:${c}"></i>${esc(p.label)}${esc(w)}</span>`;
+    }).join(' ');
+  }
+  function card(r, when, opts = {}) {
+    const len = lengthText(r);
+    const showUK = tz() !== 'Europe/London';
+    const signups = opts.signups != null ? `<span>${opts.signups} signed up</span>` : '';
+    const link = opts.url || r.next_url;
+    const fresh = r.first_seen && (Date.now() - Date.parse(r.first_seen) < 7*864e5) && meta.collecting_since && (Date.parse(r.first_seen) - Date.parse(meta.collecting_since) > 864e5);
+    return `<article class="ride">
+      <div class="t">${fmtTime(when)}${showUK ? `<small>UK ${ukTime(when)}</small>` : ''}</div>
+      <div>
+        <div class="n">${esc(r.name)}
+          ${r.jersey_unlock ? '<span class="badge jersey">Jersey unlock</span>' : ''}
+          ${r.banded ? '<span class="badge band">Banded</span>' : ''}
+          ${fresh ? '<span class="badge new">New</span>' : ''}
+          ${r.type && r.type !== 'GROUP_RIDE' ? `<span class="badge type">${esc(typeLabel(r.type))}</span>` : ''}
+        </div>
+        <div class="meta">${pens(r)}${len ? `<span>${esc(len)}</span>` : ''}${signups}${link ? `<a href="${esc(link)}" target="_blank" rel="noopener">View in Zwift ↗</a>` : ''}</div>
+      </div>
+      ${r.summary ? `<div class="sum">${esc(r.summary)}</div>` : ''}
+      ${r.description && r.description.length > (r.summary||'').length + 20 ? `<details><summary>Full description</summary><div>${esc(r.description)}</div></details>` : ''}
+    </article>`;
+  }
+
+  // ---- weekly schedule
+  function renderWeek() {
+    const today = fmtWeekday(new Date());
+    const order = [...DAYS.slice(DAYS.indexOf(today)), ...DAYS.slice(0, DAYS.indexOf(today))];
+    const wanted = state.day === 'All' ? order : [state.day === 'Today' ? today : state.day];
+    const byDay = Object.fromEntries(DAYS.map(d => [d, []]));
+    for (const s of slots) {
+      const d = new Date(s.next_start);
+      byDay[fmtWeekday(d)].push({ s, d, key: fmtTime(d) });
+    }
+    let shown = 0;
+    const html = wanted.map(day => {
+      const rows = byDay[day].filter(x => matches(x.s)).sort((a,b) => a.key.localeCompare(b.key) || a.s.name.localeCompare(b.s.name));
+      shown += rows.length;
+      const label = day === today ? `${day} <small>today</small>` : day;
+      return `<div class="day">${label} <small>${rows.length} ride${rows.length === 1 ? '' : 's'}</small></div>
+        <div class="list">${rows.length ? rows.map(x => card(x.s, x.d)).join('') : '<div class="empty">No rides match on this day (yet).</div>'}</div>`;
+    }).join('');
+    $('week').innerHTML = html;
+    $('weekCount').textContent = `${shown} of ${slots.length} weekly rides`;
+  }
+
+  function renderBuildNote() {
+    const el = $('buildNote');
+    if (!meta.collecting_since) { el.hidden = true; return; }
+    const covered = Math.min(7, (Date.parse(meta.updated) - Date.parse(meta.collecting_since)) / 864e5 + 22/24);
+    if (covered >= 7) { el.hidden = true; return; }
+    el.hidden = false;
+    el.innerHTML = `<b>Still building the week:</b> collecting from Zwift since ${esc(fmtStamp(new Date(meta.collecting_since)))}. About ${covered.toFixed(1)} of 7 days seen so far, so some days will look empty until the feed has seen them. The full week is in place after 7 days.`;
+  }
+
+  // ---- next 24 hours: live from Zwift, falling back to the saved copy
+  let nextEvents = [];
+  async function loadLive() {
+    const out = [];
+    for (let p = 0; p < 6; p++) {
+      const r = await fetch(FEED + p*200, { cache:'no-store' });
+      if (!r.ok) throw new Error(r.status);
+      const j = await r.json();
+      if (!j.length) break;
+      out.push(...j.filter(e => e.microserviceExternalResourceId === CLUB));
+    }
+    return out.map(e => ({
+      id:e.id, name:(e.name||'').trim(), start:e.eventStart, type:e.eventType, laps:e.laps,
+      distance_m:e.distanceInMeters, duration_s:e.durationInSeconds, signups:e.totalSignedUpCount,
+      banded:/BANDED/i.test(e.name||'') || e.rangeAccessLabel != null, jersey_unlock:(e.tags||[]).includes('jerseyunlock'),
+      pens:(e.eventSubgroups||[]).map(s => ({label:s.subgroupLabel, wkg_from:s.fromPaceValue, wkg_to:s.toPaceValue, distance_m:s.distanceInMeters, duration_s:s.durationInSeconds, laps:s.laps})),
+      description:(e.description||'').trim(), summary:summaryOf(e.description), url:`https://www.zwift.com/events/view/${e.id}`,
+    }));
+  }
+  function summaryOf(t) {
+    const p = String(t||'').replace(/\r/g,'').replace(/^\s*EVENT DESCRIPTION\s*/i,'').trim().split('\n\n')[0].trim();
+    return p.length > 400 ? p.slice(0,400) + '…' : p;
+  }
+  function renderNext() {
+    const now = Date.now(), end = now + 24*36e5;
+    const rows = nextEvents.filter(e => { const t = Date.parse(e.start); return t > now - 15*6e4 && t < end; })
+      .sort((a,b) => Date.parse(a.start) - Date.parse(b.start));
+    $('next').innerHTML = rows.length
+      ? rows.map(e => card(e, new Date(e.start), { signups:e.signups, url:e.url })).join('')
+      : '<div class="empty">No Galaxy rides listed by Zwift for the next 24 hours.</div>';
+  }
+
+  function renderAll() {
+    renderFilters(); renderBuildNote(); renderWeek(); renderNext();
+    if (meta.updated) $('updated').textContent = `Weekly schedule last updated ${fmtStamp(new Date(meta.updated))}.`;
+  }
+
+  async function init() {
+    renderFilters();
+    try {
+      const r = await fetch('data/gxy-schedule.json', { cache:'no-store' });
+      const j = await r.json();
+      slots = j.slots || []; meta = j;
+    } catch (e) { $('week').innerHTML = '<div class="empty">The weekly schedule could not be loaded.</div>'; }
+    renderAll();
+    try {
+      nextEvents = await loadLive();
+      $('liveStatus').textContent = 'live from Zwift'; $('liveStatus').classList.add('live');
+    } catch (e) {
+      try {
+        const r = await fetch('data/gxy-events.json', { cache:'no-store' });
+        nextEvents = ((await r.json()).events || []).map(e => ({ ...e, url:e.url }));
+        $('liveStatus').textContent = 'saved copy (Zwift not reachable)';
+      } catch { $('liveStatus').textContent = 'unavailable'; }
+    }
+    renderNext();
+  }
+  init();
+  setInterval(renderNext, 60e3);
+})();
+</script>
+</body>
+</html>
