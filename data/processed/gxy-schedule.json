@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-11T10:32:48Z",
+ "updated": "2026-11-11T11:03:19Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-12T09:00:00.000+0000",
+ "feed_reaches": "2026-11-12T10:00:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -48,8 +48,8 @@
    "next_start": "2026-11-11T11:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5780086",
    "first_seen": "2026-11-11T10:32:48Z",
-   "last_seen": "2026-11-11T10:32:48Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-11T11:03:19Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -93,8 +93,8 @@
    "next_start": "2026-11-11T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5780192",
    "first_seen": "2026-11-11T10:32:48Z",
-   "last_seen": "2026-11-11T10:32:48Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-11T11:03:19Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -142,8 +142,8 @@
    "next_start": "2026-11-11T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5780193",
    "first_seen": "2026-11-11T10:32:48Z",
-   "last_seen": "2026-11-11T10:32:48Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-11T11:03:19Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -188,8 +188,8 @@
    "next_start": "2026-11-11T18:30:00Z",
    "next_url": "https://www.zwift.com/events/view/5780305",
    "first_seen": "2026-11-11T10:32:48Z",
-   "last_seen": "2026-11-11T10:32:48Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-11T11:03:19Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -234,8 +234,8 @@
    "next_start": "2026-11-12T06:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5782509",
    "first_seen": "2026-11-11T10:32:48Z",
-   "last_seen": "2026-11-11T10:32:48Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-11T11:03:19Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   }
  ]
