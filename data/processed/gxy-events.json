@@ -1,132 +1,10 @@
 {
- "updated": "2026-11-11T19:37:05Z",
+ "updated": "2026-11-12T02:16:35Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-12T21:10:00.000+0000",
+ "feed_reaches": "2026-11-13T06:15:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "events": [
-  {
-   "id": 5780192,
-   "name": "GXY LOOSEY GOOSEY",
-   "start": "2026-11-11T16:45:00Z",
-   "type": "GROUP_RIDE",
-   "sport": "CYCLING",
-   "route_id": 3364574135,
-   "map_id": 11,
-   "laps": 4,
-   "distance_m": 0.0,
-   "duration_s": 0,
-   "pens": [
-    {
-     "label": "D",
-     "wkg_from": 1.6,
-     "wkg_to": 2.0,
-     "range": null,
-     "route_id": 3364574135,
-     "laps": 4,
-     "distance_m": 0.0,
-     "duration_s": 0,
-     "signups": 0
-    }
-   ],
-   "banded": false,
-   "jersey_unlock": false,
-   "category_enforcement": true,
-   "signups": 0,
-   "summary": "Part of the GOOSEY trilogy of events Tue / Wed / Thu at the same time",
-   "description": "Part of the GOOSEY trilogy of events Tue / Wed / Thu at the same time\n\nThis is the mid powered GOOSEY event, faster than Tue but a slower event than Thu.\nExpect a fun, social, steady state ride / event where sprints and Kom segments may be included and staying in the draft is essential.\n\nEVENT DYNAMICS\n\nCategory\t- D\nPower \t- 1.6 > 2.0wkg but expect the event to finish around 1.8wkg based on a 75kg rider.\nFence \t- Will be set to KICK! used at the leader's discretion\nDraft\t- Enabled – focus required to stay within the group\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
-   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
-   "template_id": null,
-   "tags": [
-    "gxy",
-    "galaxy",
-    "fenced"
-   ],
-   "url": "https://www.zwift.com/events/view/5780192"
-  },
-  {
-   "id": 5780193,
-   "name": "GXY MONKEY MADNESS",
-   "start": "2026-11-11T16:45:00Z",
-   "type": "GROUP_RIDE",
-   "sport": "CYCLING",
-   "route_id": 319138658,
-   "map_id": 10,
-   "laps": 1,
-   "distance_m": 0.0,
-   "duration_s": 0,
-   "pens": [
-    {
-     "label": "C",
-     "wkg_from": 2.8,
-     "wkg_to": 3.2,
-     "range": null,
-     "route_id": 319138658,
-     "laps": 1,
-     "distance_m": 0.0,
-     "duration_s": 0,
-     "signups": 0
-    }
-   ],
-   "banded": false,
-   "jersey_unlock": true,
-   "category_enforcement": false,
-   "signups": 0,
-   "summary": "Part of the MONKEY BUSINESS / MONKEY MADNESS trilogy of events Mon / Wed / Fri at the same time",
-   "description": "Part of the MONKEY BUSINESS / MONKEY MADNESS trilogy of events Mon / Wed / Fri at the same time\n\nThe event starts as a steady state ride but may involve periods of elevated power especially towards the end\n\nEVENT DYNAMICS\n\nCategory\t- C\n\nPower \t       - 2.5 > 3.2wkg but expect the event to finish around 2.9wkg based on a 75kg rider.\n\nFence \t       - Will be set to KICK! used at the leader's discretion\n\nDraft\t       - Enabled – focus required to stay within the group\n\nSweeper        - No\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
-   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
-   "template_id": null,
-   "tags": [
-    "gxy",
-    "galaxy",
-    "galaxycc",
-    "gxycc",
-    "jerseyunlock",
-    "showplacements",
-    "fenced"
-   ],
-   "url": "https://www.zwift.com/events/view/5780193"
-  },
-  {
-   "id": 5780305,
-   "name": "GXY HIGH ORBIT",
-   "start": "2026-11-11T18:30:00Z",
-   "type": "GROUP_RIDE",
-   "sport": "CYCLING",
-   "route_id": 1365497350,
-   "map_id": 11,
-   "laps": 0,
-   "distance_m": 0.0,
-   "duration_s": 3600,
-   "pens": [
-    {
-     "label": "C",
-     "wkg_from": 2.3,
-     "wkg_to": 2.9,
-     "range": null,
-     "route_id": 1365497350,
-     "laps": 0,
-     "distance_m": 0.0,
-     "duration_s": 3600,
-     "signups": 0
-    }
-   ],
-   "banded": false,
-   "jersey_unlock": false,
-   "category_enforcement": true,
-   "signups": 0,
-   "summary": "Part of the ORBIT / HIGH ORBIT group of events Monday and Wednesday at the same time",
-   "description": "Part of the ORBIT / HIGH ORBIT group of events Monday and Wednesday at the same time\n\nA fun event which can include ramps, intervals or pyramids designed to build strength and stamina\n\nEVENT DYNAMICS\n\nCategory\t- C\nPower \t- 2.3 > 2.9wkg but expect the event to finish around 2.6wkg based on a 75kg rider.\nFence \t- Will be set to KICK! used at the leader's discretion\nDraft\t- Enabled – focus required to stay within the group\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
-   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
-   "template_id": null,
-   "tags": [
-    "gxycc",
-    "galaxy",
-    "fenced",
-    "thegrade2024"
-   ],
-   "url": "https://www.zwift.com/events/view/5780305"
-  },
   {
    "id": 5782509,
    "name": "GXY SURGE",
@@ -373,6 +251,89 @@
     "fenced"
    ],
    "url": "https://www.zwift.com/events/view/5782782"
+  },
+  {
+   "id": 5784013,
+   "name": "GXY BOOST",
+   "start": "2026-11-13T05:15:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3302953739,
+   "map_id": 9,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "B",
+     "wkg_from": 3.0,
+     "wkg_to": 4.0,
+     "range": null,
+     "route_id": 3302953739,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": false,
+   "signups": 0,
+   "summary": "Part of the BOOST group of events Monday and Friday at the same time.",
+   "description": "Part of the BOOST group of events Monday and Friday at the same time.\n\nA group ride which focuses on intervals or power pyramids and staying in the draft is essential for this event\n\nEVENT DYNAMICS\n\nCategory\t- B\nPower      \t- 3.0 > 4.0 wkg but expect the event to finish with an average power around 3.5wkg based on a \t75kg rider\n\nFence\t- Enabled to KICK when in use, used at the leader's discretion\t\nDraft\t- Enabled – focus required to stay within the group\n\nSweeper\t- No\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "gxy",
+    "galaxycc",
+    "galaxy",
+    "jerseyunlock",
+    "fenced",
+    "ttbikesdraft"
+   ],
+   "url": "https://www.zwift.com/events/view/5784013"
+  },
+  {
+   "id": 5784027,
+   "name": "GXY SURGE",
+   "start": "2026-11-13T06:10:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 986252325,
+   "map_id": 10,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3000,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.5,
+     "range": null,
+     "route_id": 986252325,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3000,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.",
+   "description": "EVENT DESCRIPTION\n\nPart of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.  \n\nThis event brings a different workout structure each of the four days of the week.  This may include power pyramids, intervals and chase strategies.  Expect a fun social event where sprints and Kom segments may be included.\n\nEVENT DYNAMICS\n\nCategory    - D\n\nPower \t    - 1.6 > 2.5wkg but expect the event to finish around 2.1wkg based on a 75kg rider.\n\nFence \t    - Will be set to KICK! used at the leader's discretion\n\nDraft\t    - Enabled – focus required to stay within the group\n\nSweeper     - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub\nDiscord channel https://discord.com/channels/922817854372478986/944635948963074049",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "created_james",
+    "galaxy",
+    "gxy",
+    "fenced",
+    "jerseyunlock"
+   ],
+   "url": "https://www.zwift.com/events/view/5784027"
   }
  ]
 }
