@@ -235,7 +235,7 @@
     const len = lengthText(r);
     const showUK = tz() !== 'Europe/London';
     const signups = opts.signups != null ? `<span>${opts.signups} signed up</span>` : '';
-    const link = opts.url || r.next_url;
+    const link = opts.url; // only the Next 24 hours panel links to Zwift; weekly slots' event pages go out of date
     const fresh = r.first_seen && (Date.now() - Date.parse(r.first_seen) < 7*864e5) && meta.collecting_since && (Date.parse(r.first_seen) - Date.parse(meta.collecting_since) > 864e5);
     return `<article class="ride">
       <div class="t">${fmtTime(when)}${showUK ? `<small>UK ${ukTime(when)}</small>` : ''}</div>
