@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T11:12:28Z",
+ "updated": "2026-11-12T14:51:58Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-13T14:00:00.000+0000",
+ "feed_reaches": "2026-11-13T17:30:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -328,8 +328,8 @@
    "next_start": "2026-11-12T15:00:00Z",
    "next_url": "https://www.zwift.com/events/view/5782632",
    "first_seen": "2026-11-11T19:37:05Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -376,8 +376,8 @@
    "next_start": "2026-11-12T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5782668",
    "first_seen": "2026-11-11T19:37:05Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -424,8 +424,8 @@
    "next_start": "2026-11-12T17:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5782717",
    "first_seen": "2026-11-11T19:37:05Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -471,8 +471,8 @@
    "next_start": "2026-11-12T19:00:00Z",
    "next_url": "https://www.zwift.com/events/view/5782782",
    "first_seen": "2026-11-11T19:37:05Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -519,8 +519,8 @@
    "next_start": "2026-11-13T05:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5784013",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 2,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 3,
    "source": "zwift-public-feed"
   },
   {
@@ -566,8 +566,8 @@
    "next_start": "2026-11-13T06:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5784027",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 2,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 3,
    "source": "zwift-public-feed"
   },
   {
@@ -613,8 +613,8 @@
    "next_start": "2026-11-13T07:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5784037",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-12T11:12:28Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -659,7 +659,53 @@
    "next_start": "2026-11-13T11:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5784107",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-12T11:12:28Z",
+   "last_seen": "2026-11-12T14:51:58Z",
+   "times_seen": 2,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY  MONKEY BUSINESS",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3381223955,
+   "map_id": 11,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 2.2,
+     "wkg_to": 2.8,
+     "range": null,
+     "route_id": 3381223955,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "summary": "GXY MONKEY BUSINESS",
+   "description": "GXY MONKEY BUSINESS\n\nPart of the MONKEY BUSINESS / MONKEY MADNESS trilogy of events Mon / Wed / Fri\nat the same time\n\nThe event starts as a steady state ride but may build towards elevated power or\na mini race at the end of the event\n\nEVENT DYNAMICS\n\nCategory - C\n\nPower - 2.2 > 2.8wkg but expect the event to finish around 2.5wkg based on\na 75kg rider.\n\nFence - Will be set to KICK! used at the leader's discretion\n\nDraft - Enabled – focus required to stay within the group\n\nSweeper - Yes! Red beacon and beacon support riders will have a GXY tag after\ntheir name\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity and\ncompassion, empowering people to grow stronger, work together and support one\nanother to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or\nboth, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "thegrade2024",
+    "galaxy",
+    "gxy",
+    "fenced"
+   ],
+   "key": "GXY  MONKEY BUSINESS|4|16:45",
+   "weekday_utc": 4,
+   "weekday_name_utc": "Friday",
+   "time_utc": "16:45",
+   "next_start": "2026-11-13T16:45:00Z",
+   "next_url": "https://www.zwift.com/events/view/5784207",
+   "first_seen": "2026-11-12T14:51:58Z",
+   "last_seen": "2026-11-12T14:51:58Z",
    "times_seen": 1,
    "source": "zwift-public-feed"
   }
