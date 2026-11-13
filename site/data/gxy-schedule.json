@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-12T19:54:46Z",
+ "updated": "2026-11-13T01:51:00Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-14T05:00:00.000+0000",
+ "feed_reaches": "2026-11-14T09:00:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -519,8 +519,8 @@
    "next_start": "2026-11-13T05:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5784013",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 4,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 5,
    "source": "zwift-public-feed"
   },
   {
@@ -566,8 +566,8 @@
    "next_start": "2026-11-13T06:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5784027",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 4,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 5,
    "source": "zwift-public-feed"
   },
   {
@@ -613,8 +613,8 @@
    "next_start": "2026-11-13T07:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5784037",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -659,8 +659,8 @@
    "next_start": "2026-11-13T11:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5784107",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -705,8 +705,8 @@
    "next_start": "2026-11-13T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5784207",
    "first_seen": "2026-11-12T14:51:58Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 2,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 3,
    "source": "zwift-public-feed"
   },
   {
@@ -751,8 +751,8 @@
    "next_start": "2026-11-13T17:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5784235",
    "first_seen": "2026-11-12T19:54:46Z",
-   "last_seen": "2026-11-12T19:54:46Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -799,7 +799,64 @@
    "next_start": "2026-11-13T18:30:00Z",
    "next_url": "https://www.zwift.com/events/view/5784270",
    "first_seen": "2026-11-12T19:54:46Z",
-   "last_seen": "2026-11-12T19:54:46Z",
+   "last_seen": "2026-11-13T01:51:00Z",
+   "times_seen": 2,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY 75 ENDURANCE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 979250573,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 4500,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 2.3,
+     "wkg_to": 2.7,
+     "range": null,
+     "route_id": 979250573,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 4500,
+     "signups": 0
+    },
+    {
+     "label": "D",
+     "wkg_from": 1.7,
+     "wkg_to": 2.2,
+     "range": null,
+     "route_id": 979250573,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 4500,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": false,
+   "summary": "Part of the GXY ENDURANCE weekend group of rides",
+   "description": "Part of the GXY ENDURANCE weekend group of rides\n\nThis endurance event on a week by week basis will either be for 75 mins, 75kms or course specific.  \n\nBoth Category C and Category D riders for this event will launch at the same time on the same course.  A gap will be created by the Category C group but the social chat will continue between both groups throughout the endurance ride.\n\nEVENT DYNAMICS\n\nCategory\t- C and D\n\nPower \t\t- C 2.3 > 2.7wkg but expect the event to finish around 2.5wkg based on a 75kg rider\n\t\t          D 1.8 > 2.2wkg but expect the event to finish around 2.0wkg based on a 75kg rider\n\nFence \t\t- Will be set to KICK! used at the leader's discretion\n\nDraft\t\t- Enabled – focus required to stay within the group\n\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub\n\nhttps://discord.com/channels/922817854372478986/1052577331396493332",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "jerseyunlock",
+    "gxy",
+    "galaxy",
+    "fenced"
+   ],
+   "key": "GXY 75 ENDURANCE|5|07:15",
+   "weekday_utc": 5,
+   "weekday_name_utc": "Saturday",
+   "time_utc": "07:15",
+   "next_start": "2026-11-14T07:15:00Z",
+   "next_url": "https://www.zwift.com/events/view/5785579",
+   "first_seen": "2026-11-13T01:51:00Z",
+   "last_seen": "2026-11-13T01:51:00Z",
    "times_seen": 1,
    "source": "zwift-public-feed"
   }
