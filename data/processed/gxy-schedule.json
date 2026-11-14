@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-13T19:42:50Z",
+ "updated": "2026-11-14T01:27:04Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-15T04:00:00.000+0000",
+ "feed_reaches": "2026-11-15T08:30:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -856,8 +856,8 @@
    "next_start": "2026-11-14T07:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5785579",
    "first_seen": "2026-11-13T01:51:00Z",
-   "last_seen": "2026-11-13T19:42:50Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-14T01:27:04Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -903,7 +903,99 @@
    "next_start": "2026-11-14T15:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5785781",
    "first_seen": "2026-11-13T19:42:50Z",
-   "last_seen": "2026-11-13T19:42:50Z",
+   "last_seen": "2026-11-14T01:27:04Z",
+   "times_seen": 2,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY  100 ENDURANCE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3914529041,
+   "map_id": 9,
+   "laps": 0,
+   "distance_m": 100000.0,
+   "duration_s": 0,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.1,
+     "range": null,
+     "route_id": 3914529041,
+     "laps": 0,
+     "distance_m": 100000.0,
+     "duration_s": 0,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "summary": "Part of the GXY ENDURANCE weekend group of rides\nThis endurance event on a week by week basis will generally be for 100kms, or be course specific.\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for\na cruise at a nice zone 1 > 2 pace.\nEVENT DYNAMICS\nCategory - D\nPower - 1.6 >2.1 wkg but expect the event to finish around 1.85wkg based on a 75kg ride…",
+   "description": "Part of the GXY ENDURANCE weekend group of rides\nThis endurance event on a week by week basis will generally be for 100kms, or be course specific.\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for\na cruise at a nice zone 1 > 2 pace.\nEVENT DYNAMICS\nCategory - D\nPower - 1.6 >2.1 wkg but expect the event to finish around 1.85wkg based on a 75kg rider\nFence - Will be set to KICK! used at the leader's discretion\nDraft - Enabled – focus required to stay within the group\nSweeper - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\n\n\nETHOS\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering\npeople to grow stronger, work together and support one another to achieve shared success on Zwift\nGXY – Here together, for you ��\nIf you want to become a member and join our community to race, ride socially, or both, please come\nand join ideally via our Facebook link:\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "created_mendoza",
+    "gxy",
+    "fenced",
+    "galaxy"
+   ],
+   "key": "GXY  100 ENDURANCE|6|06:30",
+   "weekday_utc": 6,
+   "weekday_name_utc": "Sunday",
+   "time_utc": "06:30",
+   "next_start": "2026-11-15T06:30:00Z",
+   "next_url": "https://www.zwift.com/events/view/5787209",
+   "first_seen": "2026-11-14T01:27:04Z",
+   "last_seen": "2026-11-14T01:27:04Z",
+   "times_seen": 1,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY 100 ENDURANCE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 1064303857,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 6000,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 1.0,
+     "wkg_to": 2.6,
+     "range": null,
+     "route_id": 1064303857,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 6000,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "summary": "Part of the GXY ENDURANCE weekend group of rides",
+   "description": "Part of the GXY ENDURANCE weekend group of rides\n\nThis endurance event on a week by week basis will either be for 100 mins,  or course specific.  \n\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for a cruise at a nice zone 1 >2 pace.\n\nEVENT DYNAMICS\n\nCategory\t- C \n\nPower \t\t- C 2.1 - 2,6 W/kg, but expect the event to finish around 2,5 W/kg based on a 75kg rider\n\t\t  \nFence \t\t- Will be set to KICK! used at the leader's discretion\n\nDraft\t\t- Enabled – focus required to stay within the group\n\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "created_mendoza",
+    "gxy",
+    "fenced",
+    "galaxy"
+   ],
+   "key": "GXY 100 ENDURANCE|6|07:00",
+   "weekday_utc": 6,
+   "weekday_name_utc": "Sunday",
+   "time_utc": "07:00",
+   "next_start": "2026-11-15T07:00:00Z",
+   "next_url": "https://www.zwift.com/events/view/5787214",
+   "first_seen": "2026-11-14T01:27:04Z",
+   "last_seen": "2026-11-14T01:27:04Z",
    "times_seen": 1,
    "source": "zwift-public-feed"
   }
