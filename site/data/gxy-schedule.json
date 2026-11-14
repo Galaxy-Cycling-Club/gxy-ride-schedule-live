@@ -1,11 +1,152 @@
 {
- "updated": "2026-11-14T18:02:15Z",
+ "updated": "2026-11-14T22:25:38Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-16T02:00:00.000+0000",
+ "feed_reaches": "2026-11-16T07:45:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
  "slots": [
+  {
+   "name": "GXY BOOST! INTERVAL GROUP RIDE [3.0-4.0 wkg] CAT B",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 2076673816,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "B",
+     "wkg_from": 3.0,
+     "wkg_to": 4.0,
+     "range": null,
+     "route_id": 2076673816,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": false,
+   "summary": "Welcome to GXY BOOST!",
+   "description": "Welcome to GXY BOOST!\n\nThis is a twice weekly interval event which is targeted at riders looking to develop strength and endurance.\n\nThe events are open to all riders not just category B , but also those moving from rides of lower intensity.\n\nBOOST! rides will be generally focusing between Vo2 and Threshold so expect the average wkg to finish between the advertised power range based on a 75kg rider .\n\nThe sessions will be between 60 -90 minutes duration depending on intensity, course chosen or ride leader.\n\nThere will be no red sweeping beacon, so if you drop from the group simply continue the workout at your own pace.\n\nWe will of course continue to support you throughout the ride, just hang on in there and try and make it through to the end!\n\nFeel free to join in the fun during the ride by using the messaging system or if you prefer our dedicated BOOST!\n\nDiscord channel.\nGXY are a friendly and supportive club who strive to help others succeed and we are of course looking forward to riding with you.\n\nEVENT DYNAMICS\n\nCategory\t- B\n\nPower      \t- 3.0 > 4.0 wkg but expect the event to finish with an average power around 3.5wkg based on a \t75kg rider\n\nFence\t- Enabled to KICK when in use, used at the leader's discretion\nDraft\t- Enabled – focus required to stay within the group\n\nSweeper\t- No\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link.\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "gxy",
+    "galaxycc",
+    "galaxy",
+    "jerseyunlock",
+    "fenced",
+    "ttbikesdraft"
+   ],
+   "key": "GXY BOOST! INTERVAL GROUP RIDE [3.0-4.0 WKG] CAT B|0|05:15",
+   "weekday_utc": 0,
+   "weekday_name_utc": "Monday",
+   "time_utc": "05:15",
+   "next_start": "2026-11-16T05:15:00Z",
+   "next_url": "https://www.zwift.com/events/view/5789016",
+   "first_seen": "2026-11-14T22:25:38Z",
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 1,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY SURGE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 2076673816,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3000,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.5,
+     "range": null,
+     "route_id": 2076673816,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3000,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "summary": "Part of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.",
+   "description": "EVENT DESCRIPTION\n\nPart of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.  \n\nThis event brings a different workout structure each of the four days of the week.  This may include power pyramids, intervals and chase strategies.  Expect a fun social event where sprints and Kom segments may be included.\n\nEVENT DYNAMICS\n\nCategory    - D\n\nPower \t    - 1.6 > 2.5wkg but expect the event to finish around 2.1wkg based on a 75kg rider.\n\nFence \t    - Will be set to KICK! used at the leader's discretion\n\nDraft\t    - Enabled – focus required to stay within the group\n\nSweeper     - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub\nDiscord channel https://discord.com/channels/922817854372478986/944635948963074049",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "created_james",
+    "galaxy",
+    "gxy",
+    "fenced"
+   ],
+   "key": "GXY SURGE|0|06:10",
+   "weekday_utc": 0,
+   "weekday_name_utc": "Monday",
+   "time_utc": "06:10",
+   "next_start": "2026-11-16T06:10:00Z",
+   "next_url": "https://www.zwift.com/events/view/5789026",
+   "first_seen": "2026-11-14T22:25:38Z",
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 1,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY  COFFEE CRUISE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3464446734,
+   "map_id": 1,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 2.3,
+     "wkg_to": 2.8,
+     "range": null,
+     "route_id": 3464446734,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "summary": "COFFEE CRUISE is as the title suggests  a fun wholly steady state cruise",
+   "description": "COFFEE CRUISE is as the title suggests  a fun wholly steady state cruise \n\nEVENT DYNAMICS\n\nCategory\t- C\nPower \t       - 2.3 > 2.8wkg but expect the event to finish around 2.5wkg based on a 75kg rider.\nFence \t       - Will be set to KICK! used at the leader's discretion\nDraft\t      - Enabled – focus required to stay within the group\nSweeper       - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "jerseyunlock",
+    "galaxy",
+    "galaxycc",
+    "gxy",
+    "fenced"
+   ],
+   "key": "GXY  COFFEE CRUISE|0|07:45",
+   "weekday_utc": 0,
+   "weekday_name_utc": "Monday",
+   "time_utc": "07:45",
+   "next_start": "2026-11-16T07:45:00Z",
+   "next_url": "https://www.zwift.com/events/view/5789035",
+   "first_seen": "2026-11-14T22:25:38Z",
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 1,
+   "source": "zwift-public-feed"
+  },
   {
    "name": "GXY BANDWAGON - BANDED",
    "type": "GROUP_RIDE",
@@ -949,8 +1090,8 @@
    "next_start": "2026-11-15T06:30:00Z",
    "next_url": "https://www.zwift.com/events/view/5787209",
    "first_seen": "2026-11-14T01:27:04Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -995,8 +1136,8 @@
    "next_start": "2026-11-15T07:00:00Z",
    "next_url": "https://www.zwift.com/events/view/5787214",
    "first_seen": "2026-11-14T01:27:04Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -1042,8 +1183,8 @@
    "next_start": "2026-11-15T09:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5787289",
    "first_seen": "2026-11-14T10:27:54Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 2,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 3,
    "source": "zwift-public-feed"
   },
   {
@@ -1091,8 +1232,8 @@
    "next_start": "2026-11-15T15:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5787419",
    "first_seen": "2026-11-14T18:02:15Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -1140,8 +1281,8 @@
    "next_start": "2026-11-15T18:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5787475",
    "first_seen": "2026-11-14T18:02:15Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -1194,8 +1335,8 @@
    "next_start": "2026-11-15T19:00:00Z",
    "next_url": "https://www.zwift.com/events/view/5790741",
    "first_seen": "2026-11-14T18:02:15Z",
-   "last_seen": "2026-11-14T18:02:15Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-14T22:25:38Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   }
  ]
