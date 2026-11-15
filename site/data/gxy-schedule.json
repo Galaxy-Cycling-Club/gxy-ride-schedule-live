@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-15T16:22:31Z",
+ "updated": "2026-11-15T22:49:35Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-17T01:15:00.000+0000",
+ "feed_reaches": "2026-11-17T10:30:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -50,8 +50,8 @@
    "next_start": "2026-11-16T05:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5789016",
    "first_seen": "2026-11-14T22:25:38Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -96,8 +96,8 @@
    "next_start": "2026-11-16T06:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5789026",
    "first_seen": "2026-11-14T22:25:38Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -143,8 +143,8 @@
    "next_start": "2026-11-16T07:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5789035",
    "first_seen": "2026-11-14T22:25:38Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 3,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 4,
    "source": "zwift-public-feed"
   },
   {
@@ -189,8 +189,8 @@
    "next_start": "2026-11-16T11:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5789098",
    "first_seen": "2026-11-15T06:34:00Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 2,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 3,
    "source": "zwift-public-feed"
   },
   {
@@ -234,16 +234,16 @@
    "next_start": "2026-11-16T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5789187",
    "first_seen": "2026-11-15T16:22:31Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
    "name": "GXY  ORBIT",
    "type": "GROUP_RIDE",
    "sport": "CYCLING",
-   "route_id": 2076673816,
-   "map_id": 1,
+   "route_id": 3407362320,
+   "map_id": 9,
    "laps": 0,
    "distance_m": 0.0,
    "duration_s": 3600,
@@ -253,7 +253,7 @@
      "wkg_from": 1.7,
      "wkg_to": 2.3,
      "range": null,
-     "route_id": 2076673816,
+     "route_id": 3407362320,
      "laps": 0,
      "distance_m": 0.0,
      "duration_s": 3600,
@@ -279,15 +279,15 @@
    "next_start": "2026-11-16T18:30:00Z",
    "next_url": "https://www.zwift.com/events/view/5789261",
    "first_seen": "2026-11-15T16:22:31Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
    "name": "GXY   BLAST OFF – BANDED",
    "type": "GROUP_RIDE",
    "sport": "CYCLING",
-   "route_id": 3464446734,
+   "route_id": 121619062,
    "map_id": 1,
    "laps": 0,
    "distance_m": 0.0,
@@ -298,7 +298,7 @@
      "wkg_from": 1.0,
      "wkg_to": 5.0,
      "range": null,
-     "route_id": 3464446734,
+     "route_id": 121619062,
      "laps": 0,
      "distance_m": 0.0,
      "duration_s": 3600,
@@ -325,8 +325,8 @@
    "next_start": "2026-11-16T19:00:00Z",
    "next_url": "https://www.zwift.com/events/view/5789287",
    "first_seen": "2026-11-15T16:22:31Z",
-   "last_seen": "2026-11-15T16:22:31Z",
-   "times_seen": 1,
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 2,
    "source": "zwift-public-feed"
   },
   {
@@ -372,7 +372,54 @@
    "next_start": "2026-11-16T19:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5789340",
    "first_seen": "2026-11-15T16:22:31Z",
-   "last_seen": "2026-11-15T16:22:31Z",
+   "last_seen": "2026-11-15T22:49:35Z",
+   "times_seen": 2,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY SURGE",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 3866241330,
+   "map_id": 1,
+   "laps": 6,
+   "distance_m": 0.0,
+   "duration_s": 0,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.5,
+     "range": null,
+     "route_id": 3866241330,
+     "laps": 6,
+     "distance_m": 0.0,
+     "duration_s": 0,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": true,
+   "summary": "Part of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.",
+   "description": "EVENT DESCRIPTION\n\nPart of the SURGE group of events, Monday, Tuesday, Thursday and Friday at the same time.  \n\nThis event brings a different workout structure each of the four days of the week.  This may include power pyramids, intervals and chase strategies.  Expect a fun social event where sprints and Kom segments may be included.\n\nEVENT DYNAMICS\n\nCategory    - D\n\nPower \t    - 1.6 > 2.5wkg but expect the event to finish around 2.1wkg based on a 75kg rider.\n\nFence \t    - Will be set to KICK! used at the leader's discretion\n\nDraft\t    - Enabled – focus required to stay within the group\n\nSweeper     - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub\nDiscord channel https://discord.com/channels/922817854372478986/944635948963074049",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "created_james",
+    "galaxy",
+    "gxy",
+    "fenced",
+    "jerseyunlock"
+   ],
+   "key": "GXY SURGE|1|06:10",
+   "weekday_utc": 1,
+   "weekday_name_utc": "Tuesday",
+   "time_utc": "06:10",
+   "next_start": "2026-11-17T06:10:00Z",
+   "next_url": "https://www.zwift.com/events/view/5791008",
+   "first_seen": "2026-11-15T22:49:35Z",
+   "last_seen": "2026-11-15T22:49:35Z",
    "times_seen": 1,
    "source": "zwift-public-feed"
   },
