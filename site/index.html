@@ -312,7 +312,7 @@
     const rows = nextEvents.filter(e => { const t = Date.parse(e.start); return t > now - 15*6e4 && t < end; })
       .sort((a,b) => Date.parse(a.start) - Date.parse(b.start));
     $('next').innerHTML = rows.length
-      ? rows.map(e => card(e, new Date(e.start), { signups:e.signups, url:e.url })).join('')
+      ? rows.map(e => card(e, new Date(e.start), { url:e.url })).join('')
       : '<div class="empty">No Galaxy rides listed by Zwift for the next 24 hours.</div>';
   }
 
