@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-19T20:38:59Z",
+ "updated": "2026-11-20T02:20:07Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-21T08:50:00.000+0000",
+ "feed_reaches": "2026-11-21T12:00:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "stale_days": 8,
@@ -1219,8 +1219,8 @@
    "next_start": "2026-11-20T05:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5796464",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 8,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 9,
    "source": "zwift-public-feed"
   },
   {
@@ -1266,8 +1266,8 @@
    "next_start": "2026-11-20T06:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5796477",
    "first_seen": "2026-11-12T02:16:35Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 8,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 9,
    "source": "zwift-public-feed"
   },
   {
@@ -1313,8 +1313,8 @@
    "next_start": "2026-11-20T07:10:00Z",
    "next_url": "https://www.zwift.com/events/view/5796489",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 7,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 8,
    "source": "zwift-public-feed"
   },
   {
@@ -1359,8 +1359,8 @@
    "next_start": "2026-11-20T11:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5796551",
    "first_seen": "2026-11-12T11:12:28Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 7,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 8,
    "source": "zwift-public-feed"
   },
   {
@@ -1369,9 +1369,9 @@
    "sport": "CYCLING",
    "route_id": 3381223955,
    "map_id": 11,
-   "laps": 0,
+   "laps": 5,
    "distance_m": 0.0,
-   "duration_s": 3600,
+   "duration_s": 0,
    "pens": [
     {
      "label": "C",
@@ -1379,9 +1379,9 @@
      "wkg_to": 2.8,
      "range": null,
      "route_id": 3381223955,
-     "laps": 0,
+     "laps": 5,
      "distance_m": 0.0,
-     "duration_s": 3600,
+     "duration_s": 0,
      "signups": 0
     }
    ],
@@ -1405,8 +1405,8 @@
    "next_start": "2026-11-20T16:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5796654",
    "first_seen": "2026-11-12T14:51:58Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 6,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 7,
    "source": "zwift-public-feed"
   },
   {
@@ -1451,8 +1451,8 @@
    "next_start": "2026-11-20T17:45:00Z",
    "next_url": "https://www.zwift.com/events/view/5796689",
    "first_seen": "2026-11-12T19:54:46Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 4,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 5,
    "source": "zwift-public-feed"
   },
   {
@@ -1499,8 +1499,8 @@
    "next_start": "2026-11-20T18:30:00Z",
    "next_url": "https://www.zwift.com/events/view/5796722",
    "first_seen": "2026-11-12T19:54:46Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 4,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 5,
    "source": "zwift-public-feed"
   },
   {
@@ -1556,8 +1556,56 @@
    "next_start": "2026-11-21T07:15:00Z",
    "next_url": "https://www.zwift.com/events/view/5798146",
    "first_seen": "2026-11-13T01:51:00Z",
-   "last_seen": "2026-11-19T20:38:59Z",
-   "times_seen": 5,
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 6,
+   "source": "zwift-public-feed"
+  },
+  {
+   "name": "GXY MONTHLY MADNESS",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 1353706660,
+   "map_id": 1,
+   "laps": 1,
+   "distance_m": 0.0,
+   "duration_s": 0,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.5,
+     "range": null,
+     "route_id": 1353706660,
+     "laps": 1,
+     "distance_m": 0.0,
+     "duration_s": 0,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": false,
+   "summary": "Looking for a ride that's part badge hunt, part group therapy, and 100% fun?",
+   "description": "Looking for a ride that's part badge hunt, part group therapy, and 100% fun?\n\nWelcome to GXY MONTHLY MADNESS a friendly suffering event!  A once a month gathering of mad minds and strong legs hosted by Morten and Ju!\n\nA fun event which can include ramps, intervals or pyramids designed to build strength and stamina \n\nEVENT DYNAMICS\n\nCategory\t- D\n\nPower \t        - 1.6 > 2.5wkg but expect the event to finish around 2.1wkg based on a 75kg rider.\n\nFence \t        - Will be set to KICK! used at the leader's discretion.\n\nDraft\t        - Enabled – focus required to stay within the group.\n\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "galaxy",
+    "gxy",
+    "showplacements",
+    "fenced",
+    "jerseyunlock",
+    "celebritysweeper"
+   ],
+   "key": "GXY MONTHLY MADNESS|5|09:10",
+   "weekday_utc": 5,
+   "weekday_name_utc": "Saturday",
+   "time_utc": "09:10",
+   "next_start": "2026-11-21T09:10:00Z",
+   "next_url": "https://www.zwift.com/events/view/5759909",
+   "first_seen": "2026-11-20T02:20:07Z",
+   "last_seen": "2026-11-20T02:20:07Z",
+   "times_seen": 1,
    "source": "zwift-public-feed"
   },
   {
