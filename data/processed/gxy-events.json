@@ -1,90 +1,10 @@
 {
- "updated": "2026-11-22T01:20:16Z",
+ "updated": "2026-11-22T11:26:16Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-23T13:15:00.000+0000",
+ "feed_reaches": "2026-11-23T19:00:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "events": [
-  {
-   "id": 5800129,
-   "name": "GXY  100 ENDURANCE",
-   "start": "2026-11-22T06:30:00Z",
-   "type": "GROUP_RIDE",
-   "sport": "CYCLING",
-   "route_id": 2836167073,
-   "map_id": 3,
-   "laps": 0,
-   "distance_m": 100000.0,
-   "duration_s": 0,
-   "pens": [
-    {
-     "label": "D",
-     "wkg_from": 1.6,
-     "wkg_to": 2.1,
-     "range": null,
-     "route_id": 2836167073,
-     "laps": 0,
-     "distance_m": 100000.0,
-     "duration_s": 0,
-     "signups": 0
-    }
-   ],
-   "banded": false,
-   "jersey_unlock": false,
-   "category_enforcement": true,
-   "signups": 0,
-   "summary": "Part of the GXY ENDURANCE weekend group of rides\nThis endurance event on a week by week basis will generally be for 100kms, or be course specific.\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for\na cruise at a nice zone 1 > 2 pace.\nEVENT DYNAMICS\nCategory - D\nPower - 1.6 >2.1 wkg but expect the event to finish around 1.85wkg based on a 75kg ride…",
-   "description": "Part of the GXY ENDURANCE weekend group of rides\nThis endurance event on a week by week basis will generally be for 100kms, or be course specific.\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for\na cruise at a nice zone 1 > 2 pace.\nEVENT DYNAMICS\nCategory - D\nPower - 1.6 >2.1 wkg but expect the event to finish around 1.85wkg based on a 75kg rider\nFence - Will be set to KICK! used at the leader's discretion\nDraft - Enabled – focus required to stay within the group\nSweeper - Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\n\n\nETHOS\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering\npeople to grow stronger, work together and support one another to achieve shared success on Zwift\nGXY – Here together, for you ��\nIf you want to become a member and join our community to race, ride socially, or both, please come\nand join ideally via our Facebook link:\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
-   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
-   "template_id": null,
-   "tags": [
-    "created_mendoza",
-    "gxy",
-    "fenced",
-    "galaxy"
-   ],
-   "url": "https://www.zwift.com/events/view/5800129"
-  },
-  {
-   "id": 5800135,
-   "name": "GXY 100 ENDURANCE",
-   "start": "2026-11-22T07:00:00Z",
-   "type": "GROUP_RIDE",
-   "sport": "CYCLING",
-   "route_id": 1917017591,
-   "map_id": 1,
-   "laps": 0,
-   "distance_m": 0.0,
-   "duration_s": 6000,
-   "pens": [
-    {
-     "label": "C",
-     "wkg_from": 1.0,
-     "wkg_to": 2.6,
-     "range": null,
-     "route_id": 1917017591,
-     "laps": 0,
-     "distance_m": 0.0,
-     "duration_s": 6000,
-     "signups": 0
-    }
-   ],
-   "banded": false,
-   "jersey_unlock": false,
-   "category_enforcement": true,
-   "signups": 0,
-   "summary": "Part of the GXY ENDURANCE weekend group of rides",
-   "description": "Part of the GXY ENDURANCE weekend group of rides\n\nThis endurance event on a week by week basis will either be for 100 mins,  or course specific.  \n\nA fun steady state event with an emphasis on social chat and banter aimed at those riders looking for a cruise at a nice zone 1 >2 pace.\n\nEVENT DYNAMICS\n\nCategory\t- C \n\nPower \t\t- C 2.1 - 2,6 W/kg, but expect the event to finish around 2,5 W/kg based on a 75kg rider\n\t\t  \nFence \t\t- Will be set to KICK! used at the leader's discretion\n\nDraft\t\t- Enabled – focus required to stay within the group\n\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
-   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
-   "template_id": null,
-   "tags": [
-    "created_mendoza",
-    "gxy",
-    "fenced",
-    "galaxy"
-   ],
-   "url": "https://www.zwift.com/events/view/5800135"
-  },
   {
    "id": 5800218,
    "name": "GXY – LUNAR – LADIES ONLY",
@@ -346,7 +266,7 @@
    "start": "2026-11-23T07:45:00Z",
    "type": "GROUP_RIDE",
    "sport": "CYCLING",
-   "route_id": 1776635757,
+   "route_id": 986252325,
    "map_id": 10,
    "laps": 0,
    "distance_m": 0.0,
@@ -357,7 +277,7 @@
      "wkg_from": 2.3,
      "wkg_to": 2.8,
      "range": null,
-     "route_id": 1776635757,
+     "route_id": 986252325,
      "laps": 0,
      "distance_m": 0.0,
      "duration_s": 3600,
@@ -420,6 +340,84 @@
     "jerseyunlock"
    ],
    "url": "https://www.zwift.com/events/view/5802256"
+  },
+  {
+   "id": 5802347,
+   "name": "GXY MONKEY BUSINESS",
+   "start": "2026-11-23T16:45:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 2833089100,
+   "map_id": 9,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "C",
+     "wkg_from": 2.2,
+     "wkg_to": 2.8,
+     "range": null,
+     "route_id": 2833089100,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the weekday Monkey trilogy events Mon / Wed / Fri",
+   "description": "Part of the weekday Monkey trilogy events Mon / Wed / Fri\n\nRider power: 2.2 > 2.8 w/kg\n\n\nCat D > Cat C Fusion event\n\nThe ride focus is generally to keep all our riders in the draft throughout the event.\n\nEVENT DYNAMICS\n\nPower - 2.2 > 2.8 w/kg\nbut expect the event to finish around 2.5wkg based on a 75kg rider.\n\n\nFence - Will be set to KICK! used at a leaders discretion\n\nDraft - Enabled, Stay focused at all times!\n\nSweeps – Yes! Red beacon and beacon support riders\n\nETHOS\n\nInclusive, compassion, belonging and most of all teamwork.\n\nGXY- Here.Together 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\n\nhttps://www.strava.com/clubs/989894\n\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "galaxy",
+    "gxy",
+    "fenced"
+   ],
+   "url": "https://www.zwift.com/events/view/5802347"
+  },
+  {
+   "id": 5802425,
+   "name": "GXY  ORBIT",
+   "start": "2026-11-23T18:30:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 2592027600,
+   "map_id": 5,
+   "laps": 0,
+   "distance_m": 0.0,
+   "duration_s": 3600,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.7,
+     "wkg_to": 2.3,
+     "range": null,
+     "route_id": 2592027600,
+     "laps": 0,
+     "distance_m": 0.0,
+     "duration_s": 3600,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": false,
+   "category_enforcement": true,
+   "signups": 0,
+   "summary": "Part of the weekday ORBIT/ HIGH ORBIT series of events Mon / Wed.",
+   "description": "EVENT DESCRIPTION\n\nPart of the weekday ORBIT/ HIGH ORBIT series of events Mon / Wed.\n\nA fun event that can include ramps, intervals of pyramids designed to build strength and stamina.\n\nThe ride focus is generally to keep all our riders in the draft throughout the event.\n\nEVENT DYNAMICS\n\nPower -   1.7 > 2.3wkg but expect the event to finish around 2.1wkg based on a 75kg rider\nFence -    Will be set to KICK! used at a leaders discretion\nDraft -     Enabled, Stay focused at all times!  \nLeader -  Will control the ride power to ensure ave power is achieved by the end of the event\nSweeps - Yes! Red beacon  and beacon support riders\n\nETHOS\n\nWe at GXY are committed to creating a culture of belonging, inclusivity, and compassion, empowering people to grow stronger, work together, and support one another to achieve shared success on Zwift.\n\nGXY- Here.Together 💜\n\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "galaxy",
+    "gxycc",
+    "fenced"
+   ],
+   "url": "https://www.zwift.com/events/view/5802425"
   }
  ]
 }
