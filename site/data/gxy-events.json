@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27T23:28:13Z",
+ "updated": "2026-11-28T07:50:36Z",
  "collecting_since": "2026-11-11T10:32:48Z",
- "feed_reaches": "2026-11-29T08:45:00.000+0000",
+ "feed_reaches": "2026-11-29T12:30:00.000+0000",
  "club_id": "0d04ac16-6fad-4905-8407-98969e30595d",
  "source": "Zwift public events feed (api/public/events/upcoming)",
  "events": [
@@ -176,6 +176,47 @@
     "galaxy"
    ],
    "url": "https://www.zwift.com/events/view/5813352"
+  },
+  {
+   "id": 5813435,
+   "name": "GXY – LUNAR – LADIES ONLY",
+   "start": "2026-11-29T09:10:00Z",
+   "type": "GROUP_RIDE",
+   "sport": "CYCLING",
+   "route_id": 686828068,
+   "map_id": 1,
+   "laps": 10,
+   "distance_m": 0.0,
+   "duration_s": 0,
+   "pens": [
+    {
+     "label": "D",
+     "wkg_from": 1.6,
+     "wkg_to": 2.0,
+     "range": null,
+     "route_id": 686828068,
+     "laps": 10,
+     "distance_m": 0.0,
+     "duration_s": 0,
+     "signups": 0
+    }
+   ],
+   "banded": false,
+   "jersey_unlock": true,
+   "category_enforcement": false,
+   "signups": 0,
+   "summary": "Our weekly ladies only social fun spin.  This event can sometimes be banded or unbanded but will remain within the power parameters of Category D riders",
+   "description": "Our weekly ladies only social fun spin.  This event can sometimes be banded or unbanded but will remain within the power parameters of Category D riders \n\nEVENT DYNAMICS\n\nCategory\t- D\nPower \t- 1.0 > 2.5wkg but expect the event to finish around 1.8wkg based on a 75kg rider.\nFence \t- Will be set to KICK! used at the leader's discretion\nDraft\t- Enabled – focus required to stay within the group\nSweeper \t- Yes! Red beacon and beacon support riders will have a GXY tag after their name\n\nETHOS \n\nWe at GXY are committed to creating a culture of belonging, inclusivity and compassion empowering people to grow stronger, work together and support one another to achieve shared success on Zwift\n\nGXY – Here together, for you 💜\n\nIf you want to become a member and join our community to race, ride socially, or both, please come and join ideally via our Facebook link:\n\nhttps://www.facebook.com/groups/galaxycyclingclub/\nhttps://www.strava.com/clubs/989894\nhttps://www.instagram.com/galaxycyclingclub\n\nDiscord Channel https://discord.com/channels/922817854372478986/1028757507033809007",
+   "image": "https://cdn.zwift.com/static/events_headers/cycling/clubs/Galaxy.png",
+   "template_id": null,
+   "tags": [
+    "jerseyunlock",
+    "gxy",
+    "galaxy",
+    "fenced",
+    "showplacements"
+   ],
+   "url": "https://www.zwift.com/events/view/5813435"
   }
  ]
 }
